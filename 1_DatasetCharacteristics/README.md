@@ -8,23 +8,26 @@
 - **Dataset Link:** https://github.com/NickCH-K/causaldata/tree/main/Python/causaldata/nsw_mixtape
 
 ### Dataset Characteristics
-- **Number of Observations:** [Total number of samples/records in your dataset. For time series data, also specify the temporal resolution (e.g., daily, hourly, etc.)]
-- **Number of Features:** [Total number of features in your dataset]
+- **Number of Observations:** 445 observations
+- **Number of Features:** 8 features (including 1 ID variable)
 
 ### Target Variable/Label
-- **Label Name:** [Name of the target variable/column]
+- **Label Name:** 3 different target variables, real earnings in 1974, 1975 and 1978 (re74, re75, re78)
 - **Label Type:** [Classification/Regression/Clustering/Other]
 - **Label Description:** [What does this label represent? What is the prediction task?]
 - **Label Values:** [For classification: list of classes and their meanings. For regression: range of values. For other tasks: describe the label structure]
 - **Label Distribution:** [Brief description of class balance for classification or value distribution for regression]
 
 ### Feature Description
-[Provide a brief description of each feature or group of features in your dataset. If you have many features, group them logically and describe each group. Include information about data types, ranges, and what each feature represents.]
+- ** Individual ID (data_id):** Indicates where the data is from, string, only "Dehejia-Wahba Sample"
+- ** Treatment (treat):** Dummy (0/1) for being treated under the "National Supported Work Demonstration Job Training Program", string
+- ** Age (age):** Age in years, string, between 17 and 55 years, mean at around 25 years
+- ** Education (educ):** Years of education, string, between 3 and 16 years, mean at around 10 years
+- ** Race (black):** Dummy (0/1) for being black, string
+- ** Ethnicity (hisp):** Dummy (0/1) for being hispanic, string
+- ** Marriage (marr):** Dummy (0/1) for being married, string
+- ** Degree (nodegree):** Dummy (0/1) for having no degree, string
 
-**Example format:**
-- **Feature 1 (feature_name):** [Description of what this feature represents, data type, and any relevant details]
-- **Feature 2 (feature_name):** [Description of what this feature represents, data type, and any relevant details]
-- **Feature Group (group_name):** [Description of a group of related features]
 
 ## Exploratory Data Analysis
 
