@@ -4,6 +4,7 @@
   do causal forest (see slides of week 05)
 4. richtigen post-Lasso Befehl einbauen
 5. LAVA estimator?
+6. Daten nochmal umformatieren, sodass ein schönes panel draus wird? Eine spalte real income, 1 spalte year, 1 spalte jeweils für alles andere
 
 
 Von Kristian:
