@@ -1,3 +1,42 @@
 1. DONE Do Calibration Plot / quantile plot to check whether the CATE prediction is good (see slides, actual CATE vs predicted CATE)
 2. DONE Present heatmap
-3. do causal forest (see slides of week 05)
+3. DONE bzw. geschrieben, dass nicht sinnvoll bei mir:
+  do causal forest (see slides of week 05)
+4. richtigen post-Lasso Befehl einbauen
+5. LAVA estimator?
+
+
+Von Kristian:
+
+Regarding your Projects:
+Think about applying one or two regression approaches on your dataset/problem
+Try out some Trees (Random Forest, Causal Trees, etc.)
+If possible apply a graph approach (i.e. DAG) or Graph Network Model......a DeepML-Method like an Autoencoder could be another candidate
+
+If you are curious about more regreesion models beyond LINEAR ones - check out this list:
+
+Robust regression
+Logistic regression
+Exact logistic regression
+Probit regression
+Multinomial logistic regression
+Ordinal logistic regression
+Poisson regression
+Negative binomial regression
+Zero-truncated Poisson regression
+Zero-truncated NB regression
+Zero-inflated Poisson regression
+Zero-inflated NB regression
+Survival data analysis
+Proportional hazards
+Tobit regression
+Truncated regression
+Interval regression
+Generalized linear mixed models
+Mixed effects logistic regression
+
+Michal Pešta - Associate Professor at Charles University is currently running a nice course on these topics:
+
+https://www2.karlin.mff.cuni.cz/~pesta/NMFP406-2526.html
+
+Most codes are in R - but could/should be easily portable to Python
