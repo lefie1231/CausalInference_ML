@@ -29,10 +29,11 @@ Zero-inflated Poisson regression
 Zero-inflated NB regression
 Survival data analysis
 Proportional hazards
-Tobit regression
+Tobit regression --> try (Used when the dependent variable is censored 
+      (i.e., its range is restricted to a certain value, often zero, or a maximum value).)
 Truncated regression
 Interval regression
-Generalized linear mixed models
+Generalized linear mixed models --> FE/mixed model nur für die real income variablen als panel?
 Mixed effects logistic regression
 
 Michal Pešta - Associate Professor at Charles University is currently running a nice course on these topics:
