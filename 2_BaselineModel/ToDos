@@ -1,3 +1,3 @@
-1. Do Calibration Plot / quantile plot to check whether the CATE prediction is good (see slides, actual CATE vs predicted CATE)
-2. Present heatmap
+1. DONE Do Calibration Plot / quantile plot to check whether the CATE prediction is good (see slides, actual CATE vs predicted CATE)
+2. DONE Present heatmap
 3. do causal forest (see slides of week 05)
