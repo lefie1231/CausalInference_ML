@@ -9,16 +9,16 @@
 Von Kristian:
 
 Regarding your Projects:
-Think about applying one or two regression approaches on your dataset/problem
-Try out some Trees (Random Forest, Causal Trees, etc.)
+Think about applying one or two regression approaches on your dataset/problem --> done
+Try out some Trees (Random Forest, Causal Trees, etc.) --> done
 If possible apply a graph approach (i.e. DAG) or Graph Network Model......a DeepML-Method like an Autoencoder could be another candidate
 
 If you are curious about more regreesion models beyond LINEAR ones - check out this list:
 
 Robust regression
-Logistic regression
+Logistic regression --> nein
 Exact logistic regression
-Probit regression
+Probit regression --> nein
 Multinomial logistic regression
 Ordinal logistic regression
 Poisson regression
