@@ -20,10 +20,10 @@ and industry of employment of unemployed or underemployed people between 2014, t
   -   Labor outcomes: Likelihood of being employed after the training only increased significantly for the short-term unemployed (by 14pp compared to the control group). Quarterly earnings increased by 12% (ITT) or 20% (LATE) on average, respectively, compared to the control group. Again, the short-term unemployed benefitted the most.
   - **Relation to the Project**: This study has a very similar setting to my study since it is also based on an RCT.
 
-- **Source 2**: [Title of Source 2]
+- **Source 2**: Raaum & Torp (2002): Labour market training in Norway—effect on earnings
 
-  - **[Link]()**
-  - **Objective**:
+  - **[Link]()** https://www.sciencedirect.com/science/article/abs/pii/S0927537102000416?via%3Dihub
+  - **Objective**: What is the impact of Norway's labor market training program from 1991 on participant's post-training earnings?
   - **Methods**:
   - **Outcomes**:
   - **Relation to the Project**:
