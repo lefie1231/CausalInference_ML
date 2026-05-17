@@ -33,9 +33,11 @@ and industry of employment of unemployed or underemployed people between 2014, t
   - **Relation to the Project**: They in part have a very similar setting (randomly assigned treatment), I want to use their idea of using pre-treatment earnings for a common trends test (to hopefully be able to give a causal interpretation)
 
 - **Source 3**: [Title of Source 3]
+- The long-term effects of job training on labor market and skills outcomes
+in Chile nehmen!
 
   - **[Link]()**
-  - **Objective**:
+  - **Objective**: What are the labor market effects of young people in Colombia after taking part in a job training program?
   - **Methods**:
   - **Outcomes**:
-  - **Relation to the Project**:
+  - **Relation to the Project**: Adds evidence of long-term effects
