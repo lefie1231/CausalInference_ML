@@ -6,7 +6,7 @@ Approaches or solutions that have been tried before on similar projects.
 
 - **Source 1**: Baird, Engberg & Gutierrez (2022): RCT evidence on differential impact of US job training programmes by pre-training employment status
 
-  - **[Link]()** https://www.sciencedirect.com/science/article/pii/S0927537122000331?via%3Dihub
+  - **[Link](https://www.sciencedirect.com/science/article/pii/S0927537122000331?via%3Dihub)** https://www.sciencedirect.com/science/article/pii/S0927537122000331?via%3Dihub
   - **Objective**: What is the impact of New Orleans' job training program "Career Pathways" on employment, earnings,
 and industry of employment of unemployed or underemployed people between 2014, the year of introduction, and 2019?
   - **Methods**:
@@ -27,7 +27,7 @@ and industry of employment of unemployed or underemployed people between 2014, t
   - **Methods**:
   -   Use different estimators including a linear control function (LC) estimator (assumes the conditional mean of unobserved variables to be linear, deals with selection on observables) , fixed effects (FE) estimator (eliminates fixed unobserved personal characteristics), random growth (RG) estimator (includes time-constant person-specific earnings growth) and modified random growth (MRG) estimator (allows RG to vary over time).
   -    To test model specification:
-      - Pre-training test (PTT) regression including pre-treatment earnings (to check common trends assumption for causal interpretation, good if insignificant difference between treated and control group of rejected participants)
+  -   - Pre-training test (PTT) regression including pre-treatment earnings (to check common trends assumption for causal interpretation, good if insignificant difference between treated and control group of rejected participants)
        - Model restriction tests (MRTs) by including extraneaous information (pre-treatment earnings) in the regression (good if insignificant)
   - **Outcomes**: Positive impact on earnings 2 and 3 years after training (for all randomly assigned courses and most non-randomly assigned courses) under LC, FE and RG estimators, insignificant under MRG
   - **Relation to the Project**: They in part have a very similar setting (randomly assigned treatment), I want to use their idea of using pre-treatment earnings for a common trends test (to hopefully be able to give a causal interpretation)
