@@ -32,12 +32,16 @@ and industry of employment of unemployed or underemployed people between 2014, t
   - **Outcomes**: Positive impact on earnings 2 and 3 years after training (for all randomly assigned courses and most non-randomly assigned courses) under LC, FE and RG estimators, insignificant under MRG
   - **Relation to the Project**: They in part have a very similar setting (randomly assigned treatment), I want to use their idea of using pre-treatment earnings for a common trends test (to hopefully be able to give a causal interpretation)
 
-- **Source 3**: [Title of Source 3]
-- The long-term effects of job training on labor market and skills outcomes
-in Chile nehmen!
+- **Source 3**: Doerr & Novella (2024): The long-term effects of job training on labor market and skills outcomes
+in Chile
 
-  - **[Link]()**
-  - **Objective**: What are the labor market effects of young people in Colombia after taking part in a job training program?
+  - **[Link](https://www.sciencedirect.com/science/article/pii/S0927537124001155)**
+  - **Objective**: What are the labor market effects of disadvantaged people in Chile after taking part in the FOTRAB job training program?
   - **Methods**:
+  -   - Intention-to-treat (ITT) effect estimated by fixed effects regression (effect of being assigned to the program)
+      - Local Average Treatment Effect (LATE) estimated by two-stage least squares regression, with the participation dummy being instrumented by the assignment dummy (effect of being assigned and actually participating in the program)
   - **Outcomes**:
-  - **Relation to the Project**: Adds evidence of long-term effects
+  -   - No significant impact of job market training in 2013 on the likelihood of getting paid employment or becoming self-employed
+      - Significant increase in income until first follow-up survey (18 months after application to the program), but insignificant afterwards (until second follow-up survey, 35 months after applying to the program)
+      - Only classroom training (CT) courses have significant impact on income (CT with practical job training or technical assistance had no significant effects)
+  - **Relation to the Project**: The paper also looks at an RCT and provides evidence of long-term effects as well for an emerging economy.
