@@ -1,15 +1,21 @@
-# [Your Project Title Here]
+# Estimating the Treatment Effects of a Job Training Program in the U.S. (which?)
 
 ## Repository Link
 
-[https://github.com/your_username/your_project_name]
+[[https://github.com/your_username/your_project_name](https://github.com/lefie1231/CausalInference_ML)]
 
 ## Description
+
+Job training programs such as the NSW (?) were designed the help disadvantaged workers in the U.S. find new jobs and increase their income.
+To estimate treatment effects, I will fit and compare a regression model and a causal forest to calculate both the average and conditional treatment effect on worker's real earnings.
 
 [Short project description here. Briefly summarize the problem you are trying to solve and the approach you're taking.]
 
 ### Task Type
 
+1. CATE under regression model (which one?)
+2. CATE under causal forest (oder anderem forest)
+3. R-loss for both? (also for 1. Cate?)
 [Image Classification / Chatbot / Regression / Clustering / Other]
 
 ### Results Summary
