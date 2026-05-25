@@ -1,14 +1,15 @@
 1. DONE Do Calibration Plot / quantile plot to check whether the CATE prediction is good (see slides, actual CATE vs predicted CATE)
 2. DONE Present heatmap
-3. DONE bzw. geschrieben, dass nicht sinnvoll bei mir:
-  do causal forest (see slides of week 05)
-4. richtigen post-Lasso Befehl einbauen
-5. LAVA estimator?
+3. DONE bzw. geschrieben, dass nicht sinnvoll bei mir: do causal forest (see slides of week 05)
+4. DONE richtigen post-Lasso Befehl einbauen
+5. DONE LAVA estimator?
 6. Daten nochmal umformatieren, sodass ein schönes panel draus wird? Eine spalte real income, 1 spalte year, 1 spalte jeweils für alles andere
 
-CHANGE YEARS!! 1987 is treatment, the other years are years before treatment
+
 7. calculate R-loss for my S-Learner & X-Learner
 8. QINI score 
+9. add previous year of earnings as features? to control for pre-trends (ist das überhaupt ein Thema bei randomisierten Daten?)
+10. überlegen, ob ich ITT oder LATE habe bzw ob ich das andere überhaupt berechnen kann mit meinen Daten
 
 
 Von Kristian:
