@@ -1,4 +1,4 @@
-# Estimating the Treatment Effects of a Job Training Program in the U.S. (which?)
+# Estimating the Causal Treatment Effect of Job Training Programs on Participant Earnings - Evidence from the U.S.
 
 ## Repository Link
 
