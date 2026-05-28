@@ -1,4 +1,4 @@
-# Estimating the Causal Treatment Effect of Job Training Programs on Participant Earnings - Evidence from the U.S.
+# Estimating the Causal Treatment Effect of Job Training Programs on Participant Earnings: Evidence from the U.S.
 
 ## Repository Link
 
