@@ -12,7 +12,7 @@
 - **Number of Features:** 8 features (including 1 ID variable)
 
 ### Target Variable/Label
-- **Label Name:** 3 different target variables, real earnings in 1974, 1975 and 1978 (re74, re75, re78)
+- **Label Name:** Real earnings in 1978 (re78)
 - **Label Type:** [Classification/Regression/Clustering/Other]
 - **Label Description:** [What does this label represent? What is the prediction task?]
 - **Label Values:** [For classification: list of classes and their meanings. For regression: range of values. For other tasks: describe the label structure]
@@ -27,6 +27,7 @@
 - ** Ethnicity (hisp):** Dummy (0/1) for being hispanic, string
 - ** Marriage (marr):** Dummy (0/1) for being married, string
 - ** Degree (nodegree):** Dummy (0/1) for having no degree, string
+- ** Pre-treatment earnings (re74, re75):**  Real earnings in the years before treatment (1975), continuous, MIN/ MAX, MEANS!
 
 
 ## Exploratory Data Analysis
