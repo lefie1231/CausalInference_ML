@@ -2,7 +2,7 @@
 
 ## Repository Link
 
-[[https://github.com/your_username/your_project_name](https://github.com/lefie1231/CausalInference_ML)]
+[[Link](https://github.com/lefie1231/CausalInference_ML)]
 
 ## Description
 
