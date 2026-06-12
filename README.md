@@ -6,7 +6,7 @@
 
 ## Description
 
-Job training programs such as the NSW (?) were designed the help disadvantaged workers in the U.S. find new jobs and increase their income.
+Job training programs such as the NSW (?) were designed the help disadvantaged workers in the U.S. find new jobs and increase their income. The dataset only includes the male subpopulation.
 To estimate treatment effects, I will fit and compare a regression model and a causal forest to calculate both the average and conditional treatment effect on worker's real earnings.
 
 [Short project description here. Briefly summarize the problem you are trying to solve and the approach you're taking.]
