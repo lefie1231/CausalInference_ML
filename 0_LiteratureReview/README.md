@@ -30,7 +30,7 @@ and industry of employment of unemployed or underemployed people between 2014, t
   -   - Pre-training test (PTT) regression including pre-treatment earnings (to check common trends assumption for causal interpretation, good if insignificant difference between treated and control group of rejected participants)
        - Model restriction tests (MRTs) by including extraneaous information (pre-treatment earnings) in the regression (good if insignificant)
   - **Outcomes**: Positive impact on earnings 2 and 3 years after training (for all randomly assigned courses and most non-randomly assigned courses) under LC, FE and RG estimators, insignificant under MRG
-  - **Relation to the Project**: They in part have a very similar setting (randomly assigned treatment), I want to use their idea of using pre-treatment earnings for a common trends test (to hopefully be able to give a causal interpretation)
+  - **Relation to the Project**: They in part have a very similar setting (randomly assigned treatment), I want to use their idea of using pre-treatment earnings for a common trends test.
 
 - **Source 3**: Doerr & Novella (2024): The long-term effects of job training on labor market and skills outcomes
 in Chile
@@ -44,4 +44,4 @@ in Chile
   -   - No significant impact of job market training on the likelihood of getting paid employment or becoming self-employed in both follow-up surveys
       - Significant increase in income until first follow-up survey (18 months after application to the program), but insignificant afterwards (until second follow-up survey, 35 months after applying to the program)
       - Only classroom training (CT) courses have significant impact on income (CT with practical job training or technical assistance had no significant effects)
-  - **Relation to the Project**: The paper also looks at an RCT and provides evidence of long-term effects as well for an emerging economy.
+  - **Relation to the Project**: The paper also looks at an RCT and provides evidence of long-term effects, as well as evidence for an emerging economy.
