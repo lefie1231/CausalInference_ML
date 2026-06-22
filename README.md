@@ -46,4 +46,4 @@ To estimate treatment effects, I will fit and compare a regression model and a c
 
 ## Cover Image
 
-![Project Cover Image](CoverImage/cover_image.png)
+![Project Cover Image](CoverImage/Bildschirmfoto 2026-06-22 um 19.43.42.png)
