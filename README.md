@@ -2,7 +2,7 @@
 
 ## Repository Link
 
-[[Link](https://github.com/lefie1231/CausalInference_ML)]
+[[CausalInference_ML](https://github.com/lefie1231/CausalInference_ML)]
 
 ## Description
 
@@ -46,4 +46,4 @@ To estimate treatment effects, I will fit and compare a regression model and a c
 
 ## Cover Image
 
-![Project Cover Image](CoverImage/Bildschirmfoto 2026-06-22 um 19.43.42.png)
+![Project Cover Image](CoverImage/New_cover_image.png)
