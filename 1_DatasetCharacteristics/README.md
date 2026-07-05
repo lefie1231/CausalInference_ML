@@ -12,20 +12,19 @@
 - **Number of Features:** 8 features (including 1 ID variable)
 
 ### Target Variable/Label
-- **Label Name:** Real earnings in 1978 (re78)
-- **Label Type:** [Classification/Regression/Clustering/Other]
-- **Label Description:** [What does this label represent? What is the prediction task?]
-- **Label Values:** [For classification: list of classes and their meanings. For regression: range of values. For other tasks: describe the label structure]
-- **Label Distribution:** [Brief description of class balance for classification or value distribution for regression]
+- **Label Name:** re78
+- **Label Description:** Real earnings from 1978, which is the outcome I will use to measure the impact of job training participation.
+- **Label Values:** It contains values between 0 and 60.307,93 USD. 
+- **Label Distribution:** The distribution of re78 is very skewed to the right, with the mein being at 5.300,76 USD.
 
 ### Feature Description
 - ** Individual ID (data_id):** Indicates where the data is from, string, only "Dehejia-Wahba Sample"
 - ** Treatment (treat):** Dummy (0/1) for being treated under the "National Supported Work Demonstration Job Training Program", string
 - ** Age (age):** Age in years, string, between 17 and 55 years, mean at around 25 years
 - ** Education (educ):** Years of education, string, between 3 and 16 years, mean at around 10 years
-- ** Race (black):** Dummy (0/1) for being black, string
-- ** Ethnicity (hisp):** Dummy (0/1) for being hispanic, string
-- ** Marriage (marr):** Dummy (0/1) for being married, string
+- ** Race (black):** Dummy (0/1) for being black, string, probability of being black is 0.83
+- ** Ethnicity (hisp):** Dummy (0/1) for being hispanic, string, probability of being hispanic is 0.09
+- ** Marriage (marr):** Dummy (0/1) for being married, string, probability of being married 0.09
 - ** Degree (nodegree):** Dummy (0/1) for having no degree, string
 - ** Pre-treatment earnings (re74, re75):**  Real earnings in the years before treatment (1975), continuous, MIN/ MAX, MEANS!
 
