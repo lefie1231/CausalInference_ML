@@ -5,20 +5,16 @@
 ## Baseline Model Results
 
 ### Model Selection
-- **Baseline Model Type:** [e.g., Random Forest, Logistic Regression, Linear Regression, Naive Bayes, etc.]
-- **Rationale:** [Brief explanation of why this model was chosen as baseline]
-
+- **Baseline Model Type:** Among multiple potential regression models and 2 structural models, I chose the linear OLS estimation as the best baseline model. 
+- **Rationale:** I calculated the mean squared error (MSE) and adjusted R² for all models, and the linear OLS model had the second-best MSE and R-squared values and is unbiased by construction. 
+  
 ### Model Performance
-- **Evaluation Metric:** [e.g., Accuracy, F1-Score, Precision, Recall, MSE, MAE, R², etc.]
-- **Performance Score:** [e.g., 85% accuracy, F1-score of 0.78, MSE of 0.15]
-- **Cross-Validation Score:** [Mean and standard deviation of CV scores, e.g., 0.82 ± 0.03]
+- **Evaluation Metric:** MSE and adj. R² 
+- **Performance Score:** MSE of 13.67 and adj. R² of -0.08 
 
 ### Evaluation Methodology
-- **Data Split:** [Train/Validation/Test split ratios, e.g., 70/15/15]
-- **Evaluation Metrics:** [List all metrics used and justify why they are appropriate for this problem]
-
-### Metric Practical Relevance
-[Explain the practical relevance and business impact of each chosen evaluation metric. How do these metrics translate to real-world performance and decision-making? What do the metric values mean in the context of your specific problem domain?]
+- **Data Split:** Train/Test split at 80/20 
+- **Evaluation Metrics:** The MSE is useful as it measures the average squared deviation of the fitted values under the model from the actual values. This is very technical and shows how good the model fits the data. However, for the analysis it is also important to know, how much of the variation in the outcome can be explained by the variation of the variables included in the model. Therefore, I additionally calculated the adj. R², which is better for interpretation and intutitive understanding.
 
 ## Next Steps
 This baseline model serves as a reference point for evaluating more sophisticated models in the [Model Definition and Evaluation](../3_Model/README.md) phase.
