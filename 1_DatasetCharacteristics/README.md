@@ -14,8 +14,8 @@
 ### Target Variable/Label
 - **Label Name:** re78
 - **Label Description:** Real earnings from 1978, which is the outcome I will use to measure the impact of job training participation.
-- **Label Values:** It contains values between 0 and 60.307,93 USD. 
-- **Label Distribution:** The distribution of re78 is very skewed to the right, with the mein being at 5.300,76 USD.
+- **Label Values:** It contains values between 0 USD and 60.307,93 USD. 
+- **Label Distribution:** The distribution of re78 is very skewed to the right, with the mean being at 5.300,76 USD.
 
 ### Feature Description
 - ** Individual ID (data_id):** Indicates where the data is from, string, only "Dehejia-Wahba Sample"
@@ -26,7 +26,7 @@
 - ** Ethnicity (hisp):** Dummy (0/1) for being hispanic, string, probability of being hispanic is 0.09
 - ** Marriage (marr):** Dummy (0/1) for being married, string, probability of being married 0.09
 - ** Degree (nodegree):** Dummy (0/1) for having no degree, string
-- ** Pre-treatment earnings (re74, re75):**  Real earnings in the years before treatment (1975), continuous, MIN/ MAX, MEANS!
+- ** Pre-treatment earnings (re74, re75):**  Real earnings in the years before treatment (1975), continuous, between 0 USD and 39.570,68 USD (for re74, mean 2.102,27 USD); between 0 USD and 25.142,24 USD (for re75, mean 1.377,14 USD)
 
 
 ## Exploratory Data Analysis
@@ -38,4 +38,4 @@ The exploratory data analysis is conducted in the [exploratory_data_analysis.ipy
 - Missing value analysis
 - Feature correlation analysis
 - Data visualization and insights
-- Data quality assessment
+- Causal discovery and the construction of a DAG without colliders
