@@ -9,7 +9,7 @@
 
 ### Dataset Characteristics
 - **Number of Observations:** 445 observations
-- **Number of Features:** 8 features (including 1 ID variable)
+- **Number of Features:** 10 features (including 1 ID variable)
 
 ### Target Variable/Label
 - **Label Name:** re78
@@ -18,8 +18,8 @@
 - **Label Distribution:** The distribution of re78 is very skewed to the right, with the mean being at 5.300,76 USD.
 
 ### Feature Description
-- ** Individual ID (data_id):** Indicates where the data is from, string, only "Dehejia-Wahba Sample"
-- ** Treatment (treat):** Dummy (0/1) for being treated under the "National Supported Work Demonstration Job Training Program", string
+- ** Individual ID (data_id):** Indicates where the data is from, string, only value: "Dehejia-Wahba Sample"
+- ** Treatment (treat):** Dummy (0/1) for being treated under the "National Supported Work Demonstration Job Training Program" between December 1975 and January 1978 (Deheija & Wahba, 1999, p. 1054), string
 - ** Age (age):** Age in years, string, between 17 and 55 years, mean at around 25 years
 - ** Education (educ):** Years of education, string, between 3 and 16 years, mean at around 10 years
 - ** Race (black):** Dummy (0/1) for being black, string, probability of being black is 0.83
@@ -32,10 +32,9 @@
 ## Exploratory Data Analysis
 
 The exploratory data analysis is conducted in the [exploratory_data_analysis.ipynb](exploratory_data_analysis.ipynb) notebook, which includes:
-
-- Data loading and initial inspection
-- Statistical summaries and distributions
+  
+- Dataset Overview
 - Missing value analysis
-- Feature correlation analysis
-- Data visualization and insights
-- Causal discovery and the construction of a DAG without colliders
+- Feature distribution & correlation analyses
+- Causal discovery
+
