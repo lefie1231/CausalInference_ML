@@ -6,14 +6,14 @@
 
 ## Description
 
-Job training programs such as the National Supported Work (NSW) Demonstration were designed the help disadvantaged workers in the U.S. find new jobs and increase their income. The sample from the dataset used in this project only includes the male subpopulation.
+Job training programs such as the National Supported Work (NSW) Demonstration (1975-1978) were designed the help disadvantaged workers in the U.S. find new jobs and increase their income.
 
-To estimate treatment effects, I will fit and compare a regression model and a causal forest to calculate both the average and conditional treatment effect on worker's real earnings. Finally, I will visually inspect the heterogeneity in treatment effects.
+To estimate causal treatment effects, I will fit and compare a regression model and a forest model to calculate both the average and conditional treatment effects on worker's real earnings after the treatment (1978). Finally, I will visually inspect the heterogeneity in treatment effects.
 
 ### Task Type
 
-1. Calculation of ATE & CATE under the best regression model: Linear OLS 
-2. Calculation of ATE & CATE under the best forest model: Regression forest (X-Learner) 
+1. Fitting multiple regression models and calculating the ATE & CATE under the best one: Linear OLS 
+2. Fitting multiple forest models and calculating the ATE & CATE under the best one: Regression forest (X-Learner) 
 3. Plotting and interpreting multiple plots of treatment heterogeneity
 
 ### Results Summary
@@ -24,13 +24,13 @@ To estimate treatment effects, I will fit and compare a regression model and a c
 - **Final Performance:** R-Score = 0.02118 
 
 #### Model Comparison
-- **Baseline Performance:** OLS regression model based on a linear structural model ("Linear OLS"), AIPW used for calculation of ATE 
+- **Baseline Model:** OLS regression model based on a linear structural model ("Linear OLS"), AIPW used for calculation of ATE 
 - **Improvement Over Baseline:** Although no numerical comparison is made, the forest model likely captures treatment effects better than the baseline model, because the latter is constrained by its linear functional form.
 
 #### Key Insights
-- **Results:** Overall, average treatment effects are statistically significant and positive for both models, but there are also some participants that experience negative treatment effects. In general, participants with zero pre-treatment earnings, black participants, aswell as participants with more than 10 years of education and more than 26 years of age, benefit relatively more than their respective other groups. 
-- **Model Limitations:** The dataset included many zero values that had to be addressed. Other statistical models beyond the scope of this project could handle these more effectively than a simple log(y+1) transformation. Additionally, the dataset only included male participants and a large majority of Black participants, which limits external validity. The results of this project may not generalize to other populations.
-- **Business Impact:** Overall, job training can be a very effective tool for increasing participants' earnings. However, it does not necessarily reach the most disadvantaged workers. Black participants are found to benefit relatively more, which is encouraging, but those who were unemployed or had zero pre-treatment earnings, had fewer years of education, or were younger (and thus likely had less opportunity to build a formal career) did not benefit more compared to their respective counterparts.
+- **Results:** Overall, the average treatment effects are statistically significant and positive for both models, but there are also some participants that experience negative treatment effects. In general, participants with zero pre-treatment earnings, black participants, as well as participants with more than 10 years of education and more than 26 years of age, benefit relatively more than their respective other groups. 
+- **Model Limitations:** The dataset included many zero values that had to be addressed. Other statistical models beyond the scope of this project could handle these more effectively than a simple log(y+1) transformation. Additionally, the dataset only included male participants and a large majority of Black participants, which limits external validity. The results of this project may therefore not generalize to other populations.
+- **Business Impact:** Overall, job training can be a very effective tool for increasing participants' earnings. However, it does not necessarily reach the most disadvantaged workers. Black participants are found to benefit relatively more, which is encouraging, but those who were unemployed or had zero pre-treatment earnings, that only had lower education, or were younger (and thus likely had less opportunity to build a formal career already) did not benefit more compared to their respective counterparts.
 The content of the NSW job training program may therefore need to be better tailored to the needs of these groups.
 
 
