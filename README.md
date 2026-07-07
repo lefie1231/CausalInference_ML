@@ -6,44 +6,41 @@
 
 ## Description
 
-Job training programs such as the NSW (?) were designed the help disadvantaged workers in the U.S. find new jobs and increase their income. The dataset only includes the male subpopulation.
-To estimate treatment effects, I will fit and compare a regression model and a causal forest to calculate both the average and conditional treatment effect on worker's real earnings.
-
-[Short project description here. Briefly summarize the problem you are trying to solve and the approach you're taking.]
+Job training programs such as the National Supported Work (NSW) Demonstration were designed the help disadvantaged workers in the U.S. find new jobs and increase their income. The dataset only includes the male subpopulation.
+To estimate treatment effects, I will fit and compare a regression model and a causal forest to calculate both the average and conditional treatment effect on worker's real earnings. Finally, I will visually inspect the heterogeneity in treatment effects.
 
 ### Task Type
 
-1. CATE under regression model (which one?)
-2. CATE under causal forest (oder anderem forest)
-3. R-loss for both? (also for 1. Cate?)
-[Image Classification / Chatbot / Regression / Clustering / Other]
+1. Calculation of ATE & CATE under the best regression model: Linear OLS 
+2. Calculation of ATE & CATE under the best forest model: Regression forest (X-Learner) 
+3. Plotting and interpreting multiple plots of treatment heterogeneity
 
 ### Results Summary
 
 #### Best Model Performance
-- **Best Model:** [Name and type of the best-performing model"]
-- **Evaluation Metric:** [Primary metric used, e.g., Accuracy, F1-Score, MSE, MAE]
-- **Final Performance:** [Best score achieved, e.g., 95% accuracy, F1-score of 0.87, MSE of 0.12]
+- **Best Model:** Regression forest model, AIPW used for calculation of ATE, X-Learner used for calculation of CATE
+- **Evaluation Metric:** R-Score (based on R-loss)
+- **Final Performance:** R-Score = 0.02118 
 
 #### Model Comparison
-- **Baseline Performance:** [Baseline model performance for comparison]
-- **Improvement Over Baseline:** [Quantitative improvement, e.g., "+12% accuracy", "25% reduction in MSE"]
-- **Best Alternative Model:** [Second-best model and its performance]
+- **Baseline Performance:** OLS regression model based on a linear structural model ("Linear OLS"), AIPW used for calculation of ATE 
+- **Improvement Over Baseline:** Although no numerical comparison is made, the forest model likely captures treatment effects better than the baseline model, because the latter is constrained by its linear functional form.
 
 #### Key Insights
-- **Most Important Features:** [Top 3-5 features that drive model performance]
-- **Model Strengths:** [What the model does well]
-- **Model Limitations:** [Known limitations and failure cases]
-- **Business Impact:** [Practical implications of the model performance]
+- **Results:** Overall, average treatment effects are statistically significant and positive for both models, but there are also some participants that experience negative treatment effects. In general, participants with zero pre-treatment earnings, black participants, aswell as participants with more than 10 years of education and more than 26 years of age, benefit relatively more than their respective other groups. 
+- **Model Limitations:** The dataset included many zero values that had to be addressed. Other statistical models beyond the scope of this project could handle these more effectively than a simple log(y+1) transformation. Additionally, the dataset only included male participants and a large majority of Black participants, which limits external validity. The results of this project may not generalize to other populations.
+- **Business Impact:** Overall, job training can be a very effective tool for increasing participants' earnings. However, it does not necessarily reach the most disadvantaged workers. Black participants are found to benefit relatively more, which is encouraging, but those who were unemployed or had zero pre-treatment earnings, had fewer years of education, or were younger (and thus likely had less opportunity to build a formal career) did not benefit more compared to their respective counterparts.
+The content of the NSW job training program may therefore need to be better tailored to the needs of these groups.
+
 
 ## Documentation
 
 1. **[Literature Review](0_LiteratureReview/README.md)**
 2. **[Dataset Characteristics](1_DatasetCharacteristics/exploratory_data_analysis.ipynb)**
 3. **[Baseline Model](2_BaselineModel/baseline_model.ipynb)**
-4. **[Model Definition and Evaluation](3_Model/model_definition_evaluation)**
+4. **[Model Definition and Evaluation](3_Model/model_definition_evaluation.ipynb)**
 5. **[Presentation](4_Presentation/README.md)**
 
 ## Cover Image
 
-![Project Cover Image](CoverImage/New_cover_image.png)
+![Project Cover Image](CoverImage/Titelbild.png)
