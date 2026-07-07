@@ -6,7 +6,8 @@
 
 ## Description
 
-Job training programs such as the National Supported Work (NSW) Demonstration were designed the help disadvantaged workers in the U.S. find new jobs and increase their income. The dataset only includes the male subpopulation.
+Job training programs such as the National Supported Work (NSW) Demonstration were designed the help disadvantaged workers in the U.S. find new jobs and increase their income. The sample from the dataset used in this project only includes the male subpopulation.
+
 To estimate treatment effects, I will fit and compare a regression model and a causal forest to calculate both the average and conditional treatment effect on worker's real earnings. Finally, I will visually inspect the heterogeneity in treatment effects.
 
 ### Task Type
